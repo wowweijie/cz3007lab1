@@ -9,7 +9,7 @@ package frontend;
 public final class Token {
 	/** Token types are provided as an enum. */
 	public enum Type {
-		// keywords
+		// keyword arguments
 		BOOLEAN,
 		BREAK,
 		ELSE,
@@ -26,27 +26,27 @@ public final class Token {
 		WHILE,
 		
 		// punctuation symbols
-		COMMA,						/* , */
-		LBRACKET,					/* [ */
-		LCURLY,						/* { */
-		LPAREN,						/* ( */
-		RBRACKET,					/* ] */
-		RCURLY,						/* } */
-		RPAREN,						/* ) */
-		SEMICOLON,					/* ; */
+		COMMA,						
+		LBRACKET,			
+		LCURLY,					
+		LPAREN,					
+		RBRACKET,	
+		RCURLY,					
+		RPAREN,				
+		SEMICOLON,			
 		
-		// operators
-		DIV,						/* / */
-		EQEQ,						/* == */
-		EQL,						/* = */
-		GEQ,						/* >= */
-		GT,							/* > */
-		LEQ,						/* <= */
-		LT,							/* < */
-		MINUS,						/* - */
-		NEQ,						/* != */
-		PLUS,						/* + */
-		TIMES,						/* * */
+		// operators symbols
+		DIV,			
+		EQEQ,	
+		EQL,	
+		GEQ,
+		GT,			
+		LEQ,						
+		LT,						
+		MINUS,					
+		NEQ,			
+		PLUS,				
+		TIMES,				
 		
 		// identifier
 		ID,
@@ -55,7 +55,7 @@ public final class Token {
 		INT_LITERAL,
 		STRING_LITERAL,
 		
-		// special end-of-file token
+		// end-of-file token
 		EOF
 	};
 	
